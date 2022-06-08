@@ -1,0 +1,179 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 10,
+    "passes": 8,
+    "pending": 0,
+    "failures": 2,
+    "start": "2022-06-08T23:46:42.151Z",
+    "end": "2022-06-08T23:46:42.594Z",
+    "duration": 443
+  },
+  "tests": [
+    {
+      "title": "is defined",
+      "fullTitle": "index.js currentUser is defined",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"Welcome to Flatbook, \"",
+      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Welcome to Flatbook, $\\'{currentUser}\\'!' to contain 'Maryrine Onsare'",
+        "showDiff": false,
+        "actual": "Welcome to Flatbook, $'{currentUser}'!",
+        "stack": "AssertionError: expected 'Welcome to Flatbook, $\\'{currentUser}\\'!' to contain 'Maryrine Onsare'\n    at Context.<anonymous> (test/indexTest.js:15:38)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "ends with an exclamation point!",
+      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"WELCOME TO FLATBOOK, \"",
+      "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'WELCOME TO FLATBOOK, $\\'{CURRENTUSER}\\'!' to contain 'MARYRINE ONSARE'",
+        "showDiff": false,
+        "actual": "WELCOME TO FLATBOOK, $'{CURRENTUSER}'!",
+        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK, $\\'{CURRENTUSER}\\'!' to contain 'MARYRINE ONSARE'\n    at Context.<anonymous> (test/indexTest.js:31:45)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"Welcome, \"",
+      "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains the first initial of the name stored in the 'currentUser' variable",
+      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js shortGreeting ends with an exclamation point",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js welcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'Welcome to Flatbook, $\\'{currentUser}\\'!' to contain 'Maryrine Onsare'",
+        "showDiff": false,
+        "actual": "Welcome to Flatbook, $'{currentUser}'!",
+        "stack": "AssertionError: expected 'Welcome to Flatbook, $\\'{currentUser}\\'!' to contain 'Maryrine Onsare'\n    at Context.<anonymous> (test/indexTest.js:15:38)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    },
+    {
+      "title": "contains the value of the 'currentUser' variable",
+      "fullTitle": "index.js excitedWelcomeMessage contains the value of the 'currentUser' variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'WELCOME TO FLATBOOK, $\\'{CURRENTUSER}\\'!' to contain 'MARYRINE ONSARE'",
+        "showDiff": false,
+        "actual": "WELCOME TO FLATBOOK, $'{CURRENTUSER}'!",
+        "stack": "AssertionError: expected 'WELCOME TO FLATBOOK, $\\'{CURRENTUSER}\\'!' to contain 'MARYRINE ONSARE'\n    at Context.<anonymous> (test/indexTest.js:31:45)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "is defined",
+      "fullTitle": "index.js currentUser is defined",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"Welcome to Flatbook, \"",
+      "fullTitle": "index.js welcomeMessage contains \"Welcome to Flatbook, \"",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ends with an exclamation point!",
+      "fullTitle": "index.js welcomeMessage ends with an exclamation point!",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"WELCOME TO FLATBOOK, \"",
+      "fullTitle": "index.js excitedWelcomeMessage contains \"WELCOME TO FLATBOOK, \"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js excitedWelcomeMessage ends with an exclamation point",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains \"Welcome, \"",
+      "fullTitle": "index.js shortGreeting contains \"Welcome, \"",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "contains the first initial of the name stored in the 'currentUser' variable",
+      "fullTitle": "index.js shortGreeting contains the first initial of the name stored in the 'currentUser' variable",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "ends with an exclamation point",
+      "fullTitle": "index.js shortGreeting ends with an exclamation point",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
